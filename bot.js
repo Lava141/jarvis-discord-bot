@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const Music = require('discord.js-musicbot-addon');
 const client = new Discord.Client();
 
 client.on("ready",  message => {
@@ -105,7 +106,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === "!play") {
-      message.channel.send('An Error Occured'); 
+      message.channel.send('An Error Occured with discord.js-musicbot-addon at line 58'); 
     }
 });
 
