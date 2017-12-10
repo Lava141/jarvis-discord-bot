@@ -105,8 +105,9 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if(message.content === "!play") {
-      message.channel.send('An Error Occured with discord.js-musicbot-addon at line 58'); 
+    if(message.content === "!jarvis-play") {
+      let music = args.slice(1).join(" ");
+      message.channel.send('!play ' + music); 
     }
 });
 
