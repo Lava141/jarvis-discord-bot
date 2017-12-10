@@ -105,8 +105,8 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === "!jarvis-play") {
-      let music = args.slice(1).join(" ");
-      message.channel.send('!play ' + music); 
+       let text = args.slice(1).join(" ");
+      message.channel.send('!play ' + text); 
     }
 });
 
