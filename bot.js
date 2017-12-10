@@ -35,6 +35,14 @@ message.channel.send({embed: {
       {
         name: "!play [URL]",
         value: "Play music from youtube"
+      },
+      {
+        name: "!stop",
+        value: "Stop Music"
+      },
+      {
+        name: "!disconnect",
+        value: "Disconnect jarvis-music"
       }
     ],
   }
